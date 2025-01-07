@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Route</title>
+
+    <style>
+      /* Basic Reset */
+      body,
+      h1,
+      p,
+      div,
+      a,
+      button {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      /* Welcome Message */
+      p {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      /* Button Styles */
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 0 10px;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      /* Link Styles */
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Welcome TODO APP!</p>
+    <div>
+      <a href="/login">
+        <button>LOGIN</button>
+      </a>
+      <a href="/signup">
+        <button>SIGNUP</button>
+      </a>
+    </div>
+  </body>
+</html>
