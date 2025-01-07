@@ -43,10 +43,6 @@ res.render('index')
 app.use('/', authRoutes);
 app.use('/tasks', taskRoutes); 
 
-// Handle 404 Not Found
-app.use((req, res, next) => {
-    res.status(404).json({ message: 'This Route is Not Found' });
-}); 
 
 //Global Error Handling
 app.use((err, req, res, next) => {
